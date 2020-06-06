@@ -1,0 +1,129 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(34, 22,26) ;
+    font-family: lato ;
+}
+
+
+
+
+
+.div {
+    color: rgba(184, 176, 178);
+}
+
+
+.main-container {
+   width: 70%;
+   padding: 2.5rem 4rem;
+   margin: auto;
+   color: rgba(184, 176, 178);
+   
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    grid-column-gap: 4rem;
+    justify-content: center;
+
+}
+
+ @media screen and (max-width: 831px) {
+
+    .main-container {
+        grid-template-columns: max-content;
+    }
+ }
+
+.plan {
+    padding: 3rem 0;
+}
+
+.plan__divider {
+    height: 100%;
+    width: 1px;
+    background-color:rgba(168, 148, 155, .1) ;
+  
+
+}
+
+@media screen and (max-width: 831px) {
+
+    .plan__divider {
+        height: 1px;
+        width: 100%;
+        margin: 3rem 0;
+    }
+ }
+
+.plan__main-heading{
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+}
+
+
+.plan__first-box {
+    margin-bottom: 4.5rem;
+}
+
+.plan__header {
+    margin-bottom: .5rem;
+    font-size: 1.35rem;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+
+}
+
+.amount {
+    font-size: 1.45rem
+}
+
+.plan__list {
+    margin-bottom: 4.5rem ;
+}
+
+.plan__list li {
+    padding: .3rem 0;
+    position: relative;
+    list-style: none;
+    margin-left: .8rem;
+}
+
+.plan__icon {
+    font-size: .4rem;
+    display: inline-block;
+    margin-right: 3rem;
+    position: absolute;
+    top: .7rem;
+    left: -.6rem;
+    
+}
+
+
+.basic-btn {
+    font-size: 1rem;
+    padding: 1.2rem 6rem;
+    background-color: transparent;
+    color: rgb(175, 40, 48);
+    border: 1px solid rgb(175, 40, 48);
+    border-radius: 4px;
+    
+}
+
+.basic-pro {
+    font-size: 1rem;
+    padding: 1.2rem 6rem;
+    background-color: rgb(175, 40, 48);
+    color: white;
+    border: 1px solid rgb(175, 40, 48);
+    border-radius: 4px;
+    
+}
+
